@@ -1,64 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="stylesheet" href="style.css" />
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Account form</title>
-</head>
-<body>
-  <form>
-<div class="container">
-  
-    <legend>CREATE AN ACCOUNT</legend>
-   <h3>We always keep your name and email address 
-    private.</h3>
-   </h3>
-   <div class="inp-cont">
-    <label for="Firstname"></label>
-    <input autofocus id="Firstname" placeholder="First name" size="26" />
-    <label for="Lastname"></label>
-    <input id="Lastname" placeholder="Last name" size="26"/>
-  </div>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account form</title>
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <h1>CREATE AN ACCOUNT</h1>
+        <h3>We always keep your name and email address private.</h3>
 
-  <div class="inp-cont">
-    <label for="Displayname"></label>
-    <input  id="Displayname" placeholder="Display name" size="26" />
-    <label for="Email"></label>
-    <input id="Email" type="email" placeholder="Email Address" size="26"  /> 
-  </div>
-   
-  <div class="inp-cont">
-    <label for="Password"></label>
-    <input id="Password" placeholder="Password" size="26" type="password"/>
-    <label for="Password Confirmation"></label>
-    <input id="Password Confirmation" placeholder="Password Confirmation" size="26" type="password"/>
-  </div>
-  
-  <div class="radio-cont">
-    
-    <label for="Join as a Buyer"></label>
-    <input type="radio" id="Join as a Buyer" value="Buyer"  /> <b>Join as a Buyer</b><br><span>I am looking for a Name , Logo or Tagline for my business .</span>
-  
-  </div>
+        <div class="inp-cont">
+          <label for="Firstname"></label>
+          <input autofocus id="Firstname" placeholder="First name" size="26" />
+          <label for="Lastname"></label>
+          <input id="Lastname" placeholder="Last name" size="26" />
+        </div>
 
-  <div class="radio-cont">
-    
-    <label for="Join as a Buyer"></label>
-    <input type="radio" id="Join as a Buyer" value="Buyer"  /> <b>Join as a Creative or Marketplace Seller</b><br><span>I plan to submit name ideas , Logo desings in Domain Marketplace .</span>
-  
-  </div>
+        <div class="inp-cont">
+          <label for="Displayname"></label>
+          <input id="Displayname" placeholder="Display name" size="26" />
+          <label for="Email"></label>
+          <input
+            id="Email"
+            type="email"
+            placeholder="Email Address"
+            size="26"
+          />
+        </div>
 
-  <div class="check-cont">
-    
-    <input type="checkbox" id="used" value="used" />
-    <label for="used">Allow Squadhelp to send marketing/promotional offers from time</label>
-  </div>
-  <div class="btn-cont">
-   <h2>Create Account</h2> 
-  </div>
-</div>
-</form>
-</body>
+        <div class="inp-cont">
+          <label for="Password"></label>
+          <input
+            id="Password"
+            placeholder="Password"
+            size="26"
+            type="password"
+          />
+          <label for="Confirmation"></label>
+          <input
+            id="Confirmation"
+            placeholder="Password Confirmation"
+            size="26"
+            type="password"
+          />
+        </div>
+
+        <div class="radio-cont">
+          <label for="Join"></label>
+          <input type="radio" id="Join" value="Buyer" /> <b>Join as a Buyer</b
+          ><br /><span
+            >I am looking for a Name , Logo or Tagline for my business .</span
+          >
+        </div>
+
+        <div class="radio-cont">
+          <label for="Join2"></label>
+          <input type="radio" id="Join2" value="Buyer" />
+          <b>Join as a Creative or Marketplace Seller</b><br /><span
+            >I plan to submit name ideas , Logo desings in Domain Marketplace
+            .</span
+          >
+        </div>
+
+        <div class="check-cont">
+          <input type="checkbox" id="used" value="used" />
+          <label for="used"
+            >Allow Squadhelp to send marketing/promotional offers from
+            time</label
+          >
+        </div>
+        <div class="btn-cont">
+          <h2>Create Account</h2>
+        </div>
+      </div>
+    </form>
+  </body>
 </html>
