@@ -1,21 +1,22 @@
-*{
- box-sizing: border-box;
- margin: 10px auto; 
+* {
+  box-sizing: border-box;
+  margin: 10px auto;
 }
 :root {
   color: rgb(246, 248, 249);
 }
 
 header {
-width: 100%;
-max-height: 100px;
+  width: 100%;
+  max-height: 100px;
 }
-h1, p {
+h1,
+p {
   text-align: center;
 }
 .main-cont {
-  border: 1px solid ;
-  max-width: 500px ;
+  border: 1px solid;
+  max-width: 500px;
   height: 720px;
   background-color: rgb(86, 172, 252);
   display: flex;
@@ -31,14 +32,13 @@ form {
   height: 100%;
   display: flex;
   flex-direction: column;
-
 }
 #out-input-cont {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-.in-input-cont  {
+.in-input-cont {
   padding-left: 60px;
   padding-right: 60px;
   margin-top: 0px;
@@ -48,11 +48,9 @@ form {
   gap: 25px;
   display: flex;
   flex-direction: row;
-  justify-content: center ;
+  justify-content: center;
 }
-input[type="text"]
-input[type="email"]
-input[type="password"]{
+input[type="text"] input[type="email"] input[type="password"] {
   max-width: 80%;
   min-width: 250px;
   height: 70px;
@@ -61,12 +59,11 @@ input[type="password"]{
 input[type="radio"] {
   margin: 0px;
 }
-label>h3 {
+label > h3 {
   padding-left: 10px;
   padding-bottom: 0px;
   font-size: 22px;
   line-height: 0px;
-
 }
 h5 {
   line-height: 0px;
@@ -78,7 +75,6 @@ h5 {
   font-size: 22px;
   padding-left: 0px;
   line-height: 0px;
-  
 }
 
 .radio-inner {
@@ -86,14 +82,13 @@ h5 {
   padding-right: 25px;
   display: flex;
   justify-content: flex-start;
-  
 }
 .radio-wrapper {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  
-  border: 1px solid ;
+
+  border: 1px solid;
   padding-left: 0px;
   padding-right: 0px;
   margin-top: 10px;
@@ -104,7 +99,6 @@ h5 {
   display: flex;
   justify-content: flex-start;
 }
-
 
 .button {
   background-color: rgb(80, 204, 163);
@@ -118,7 +112,6 @@ h5 {
   border-radius: 5px;
   color: rgb(236, 242, 247);
   border-style: solid;
-
 }
 #button-cont {
   display: flex;
